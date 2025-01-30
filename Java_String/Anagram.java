@@ -1,15 +1,12 @@
 import java.util.Arrays;
 import java.util.Scanner;
-public class Anagram{
+public class Anagram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first string: ");
         String str1 = sc.nextLine();
-        
         System.out.print("Enter the second string: ");
         String str2 = sc.nextLine();
-        
-        // Call the method to check if the strings are anagrams
         if (areAnagrams(str1, str2)) {
             System.out.println("The strings are anagrams.");
         } else {
@@ -17,27 +14,27 @@ public class Anagram{
         }
         sc.close();
     }
-
-    // Method to check if two strings are anagrams
     public static boolean areAnagrams(String str1, String str2) {
-        // Remove spaces and convert to lowercase for case insensitivity
-        str1 = str1.replaceAll("\\s", "").toLowerCase();
-        str2 = str2.replaceAll("\\s", "").toLowerCase();
-        
-        // Check if the lengths of the strings are the same
         if (str1.length() != str2.length()) {
             return false;
         }
-        
-        // Convert both strings to character arrays
-        char[] charArray1 = str1.toCharArray();
-        char[] charArray2 = str2.toCharArray();
-        
-        // Sort the character arrays
-        Arrays.sort(charArray1);
-        Arrays.sort(charArray2);
-        
-        // Compare the sorted arrays
+        str1 = str1.toLowerCase();
+        str2 = str2.toLowerCase();
+        char[] charArray1 = new char[str1.length()];
+        char[] charArray2 = new char[str2.length()];
+        int index1 = 0, index2 = 0;
+        for (int i = 0; i < str1.length(); i++) {
+            if (str1.charAt(i) != ' ') {
+                charArray1[index1++] = str1.charAt(i);
+            }
+        }
+        for (int i = 0; i < str2.length(); i++) {
+            if (str2.charAt(i) != ' ') {
+                charArray2[index2++] = str2.charAt(i);
+            }
+        }
+        Arrays.sort(charArray1, 0, index1);
+        Arrays.sort(charArray2, 0, index2);
         return Arrays.equals(charArray1, charArray2);
     }
 }
