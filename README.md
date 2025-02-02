@@ -26,3 +26,7 @@ Day 7
 Date: 31-01-2025
 Completes Questions in OOPS Topic: Class And Objects
 -------------------------------------------------------------------------------------------------------------------
+Day 8
+Date: 02-02-2025
+Completed Questions in Java Constructors, Instance vs. Class Variables, Access Modifiers Level 1
+-------------------------------------------------------------------------------------------------------------------
