@@ -30,3 +30,7 @@ Day 8
 Date: 02-02-2025
 Completed Questions in Java Constructors, Instance vs. Class Variables, Access Modifiers Level 1
 -------------------------------------------------------------------------------------------------------------------
+Day 9
+Date: 04-02-2025
+Completed Questions in this, static, final key words and instanceof operator Level 1
+-------------------------------------------------------------------------------------------------------------------
