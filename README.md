@@ -24,7 +24,7 @@ Completed Questions in Java Topic: a)Built-in Functions b)Strings
 -------------------------------------------------------------------------------------------------------------------
 Day 7
 Date: 31-01-2025
-Completes Questions in OOPS Topic: Class And Objects
+Completed Questions in OOPS Topic: Class And Objects
 -------------------------------------------------------------------------------------------------------------------
 Day 8
 Date: 02-02-2025
@@ -33,4 +33,12 @@ Completed Questions in Java Constructors, Instance vs. Class Variables, Access M
 Day 9
 Date: 04-02-2025
 Completed Questions in this, static, final key words and instanceof operator Level 1
+-------------------------------------------------------------------------------------------------------------------
+Day 10
+Date: 05-02-2025
+Completed Questions on Object Oriented design priniciples
+-------------------------------------------------------------------------------------------------------------------
+Day 11
+Date: 07-02-2025
+Completed Questions on Inheritance and its different types
 -------------------------------------------------------------------------------------------------------------------
